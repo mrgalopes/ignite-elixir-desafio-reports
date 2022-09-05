@@ -4,11 +4,18 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "build/1",
+      "describe": "parse_file/1",
+      "file": "/home/gabriel/Code/IgniteElixir/ignite-elixir-desafio-reports/test/parser_test.exs",
+      "line": 7,
+      "module": "Elixir.GenReport.ParserTest",
+      "test": "test parse_file/1 parses the file"
+    },
+    {
+      "describe": "build_from_many/1",
       "file": "/home/gabriel/Code/IgniteElixir/ignite-elixir-desafio-reports/test/gen_report_test.exs",
-      "line": 10,
+      "line": 24,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When passing file name return a report"
+      "test": "test build_from_many/1 When passing filenames, returns a report from all of them"
     },
     {
       "describe": "build/1",
@@ -18,11 +25,18 @@
       "test": "test build/1 When no filename was given, returns an error"
     },
     {
-      "describe": "parse_file/1",
-      "file": "/home/gabriel/Code/IgniteElixir/ignite-elixir-desafio-reports/test/parser_test.exs",
-      "line": 7,
-      "module": "Elixir.GenReport.ParserTest",
-      "test": "test parse_file/1 parses the file"
+      "describe": "build/1",
+      "file": "/home/gabriel/Code/IgniteElixir/ignite-elixir-desafio-reports/test/gen_report_test.exs",
+      "line": 10,
+      "module": "Elixir.GenReportTest",
+      "test": "test build/1 When passing file name return a report"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/home/gabriel/Code/IgniteElixir/ignite-elixir-desafio-reports/test/gen_report_test.exs",
+      "line": 32,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When given invalid input, returns an error"
     }
   ],
   "skiped": []
